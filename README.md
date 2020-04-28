@@ -102,11 +102,7 @@ Processed: ~2700 rows (daily metrics) by 6 column attributes (values)
 | 2017\-11\-09 | 174\.48             | 175\.46 | 172\.52             | 175\.25             | 29533086  |
 | 2017\-11\-10 | 175\.11             | 175\.38 | 174\.27             | 174\.67             | 25130494  |
 
-**Attribute Descriptions**    
-_'Date'_  
-(date)             
-The date the of the trading day corresponding to the recorded values. This is our index used in our timeseries, and this is a linear spread of all dats from 2007 onwards, and being an index measure of spread isn't applicable.
-
+**Attribute Descriptions**
 _'Open'_  
 (float64)             
 The opening price is the price at which a security first trades upon the opening of an exchange on a trading day. For our data, this is a price of Apple's shares on open. 
