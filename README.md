@@ -25,7 +25,8 @@ Processed: ~3900 rows (stocks) by 11 column attributes (indicators)
 
 ### aapl.us.txt ###
 This data set is a collection of Apple Inc. daily stock market prices since 1984. For our purposes we will be using the data since 2007, as the advent of the iPhone changed the economic and corporate landscape. 
-**Size**    
+
+**Size**      
 Raw: 8364 rows (daily metrics) by 7 column attributes (values) - 428kB    
 Processed: -- rows (daily metrics) by 6 column attributes (values)   
 
