@@ -1,7 +1,7 @@
 # **CPSC-4310-Stocks** # 
 
-## Datasets ##
-### 2018_Financial_Data.csv ###
+## **Datasets** ##
+### **2018_Financial_Data.csv** ###
 This dataset is a collection of over 200+ financial indicators including a "class" attibute that indicates wether or not to buy a stock.    
 
 **Size**    
@@ -59,7 +59,7 @@ The predetermined classes of 1 and 0 - where the former represnets buy the stock
 |---------|-------|------|
 | int64 | 1 | 0.302167 |
 
-### aapl.us.txt ###
+### **aapl.us.txt** ###
 This data set is a collection of Apple Inc. daily stock market prices since 1984. For our purposes we will be using the data since 2007, as the advent of the iPhone changed the economic and corporate landscape. 
 
 **Size**      
