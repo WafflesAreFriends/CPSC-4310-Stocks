@@ -60,5 +60,5 @@ The low is the lowest price at which a stock traded during the course of the tra
 _'Close'_ (float64)            
 The closing price is the last price at which the stock traded during the regular trading day.
 
-_'Volume'_ (float64)        
+_'Volume'_ (int64)        
 The volume is the number of shares that changed hands during a given day.
