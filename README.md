@@ -6,7 +6,7 @@ This dataset is a collection of over 200+ financial indicators including a "clas
 
 **Size**    
 Raw: 4392 rows (stocks) by 225 column attributes (indicators) - 8.6MB     
-Processed: ~1200 rows (stocks) by 8 column attributes (indicators)  
+Processed: ~2500 rows (stocks) by 8 column attributes (indicators)  
 
 **Samples**
 |      | priceCashFlowRatio  | priceEarningsRatio | priceEarningsToGrowthRatio | priceBookValueRatio | currentRatio       | quickRatio          | payoutRatio | Class |
@@ -26,18 +26,34 @@ Processed: ~1200 rows (stocks) by 8 column attributes (indicators)
 **Attribute Descriptions**    
 _'priceCashFlowRatio'_ (float64)      
 The prive to cash flow ratio is used to compare a company's market value to its cashflow. Theoretically, the lower the value the better the stock is.
+| count | mean         | std          | min | 25%          | 50%          | 75%          | max          |
+|-------|--------------|--------------|-----|--------------|--------------|--------------|--------------|
+| 2499  | 58\.32474019 | 85\.68848528 | 0   | 7\.161927929 | 12\.50755277 | 41\.59121981 | 471\.9803278 |
 
 _'priceEarningsRatio'_ (float64)          
 The price to earnings ratio (PE Ratio) is a measure of the share price relative to the annual net income earned by the firm per share. This ratio indicates current demand for a certain stock by investors.
+| count | mean         | std          | min | 25% | 50%      | 75%      | max      |
+|-------|--------------|--------------|-----|-----|----------|----------|----------|
+| 2499  | 11\.98668898 | 12\.32574592 | 0   | 0   | 10\.7431 | 18\.1114 | 59\.2966 |
+
 
 _'priceEarningsToGrowthRatio'_ (float64)        
 The price/earnings to growth ratio (PEG Ratio) is a valuation metric for determining the relative trade-off between the price of a stock, the earnings generated per share (EPS), and the company's expected growth.
+| count | mean         | std          | min | 25%         | 50%         | 75%          | max          |
+|-------|--------------|--------------|-----|-------------|-------------|--------------|--------------|
+| 2499  | 27\.38404012 | 16\.68317639 | 0   | 12\.2697529 | 21\.6672271 | 47\.51407396 | 79\.03994624 |
 
 _'priceBookValueRatio'_ (float64)         
 The price to book value ratio (PBV Ratio) is the market price per share divided by the book value per share. Traditionally, a value under 3.0 is fair and under 1.0 is undervalued and thus very good.
+| count | mean         | std          | min | 25%     | 50%     | 75%      | max      |
+|-------|--------------|--------------|-----|---------|---------|----------|----------|
+| 2499  | 2\.677537655 | 3\.030099113 | 0   | 0\.9714 | 1\.6363 | 3\.19435 | 20\.1252 |
 
 _'currentRatio'_ (float64)          
 The current ratio is a liquidity ratio that measures whether a firm has enough resources to meet its short-term obligations. A good current ratio is between 1.2 to 2, which means that the business has 2 times more current assets than liabilities to covers its debts.
+| count | mean         | std          | min | 25%    | 50%    | 75%    | max          |
+|-------|--------------|--------------|-----|--------|--------|--------|--------------|
+| 2499  | 1\.857088927 | 1\.421384897 | 0   | 0\.889 | 1\.581 | 2\.558 | 7\.443545351 |
 
 _'quickRatio'_ (float64)         
 The quick ratio is a financial ratio used to gauge a company's liquidity. A result of 1 is considered to be the normal quick ratio. 
