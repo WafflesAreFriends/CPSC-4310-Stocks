@@ -26,7 +26,7 @@ Processed: ~2500 rows (stocks) by 8 column attributes (indicators)
 **Attribute Descriptions**    
 _'priceCashFlowRatio'_  
 (float64)      
-The prive to cash flow ratio is used to compare a company's market value to its cashflow. Theoretically, the lower the value the better the stock is.
+The price to cash flow ratio is used to compare a company's market value to its cashflow. Theoretically, the lower the value the better the stock is.
 | count | mean         | std          | min | 25%          | 50%          | 75%          | max          |
 |-------|--------------|--------------|-----|--------------|--------------|--------------|--------------|
 | 2499  | 58\.32474019 | 85\.68848528 | 0   | 7\.161927929 | 12\.50755277 | 41\.59121981 | 471\.9803278 |
